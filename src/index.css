@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.app {
+  padding: 20px;
+}
+
+.parking {
+  padding: 2px;
+  margin-top: 20px;
+  display: flex;
+  gap: 2px;
+  flex-wrap: wrap;
+}
+
+.parkingLot {
+  height: 100px;
+  width: 50px;
+  border: 1px solid rgba(128, 128, 128, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.MuiBackdrop-root.MuiModal-backdrop.css-i9fmh8-MuiBackdrop-root-MuiModal-backdrop {
+  background-color: white;
+}
